@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/fkpwolf
   projects:
     - name: zmk
-      remote: myzmkfirmware
-      revision: enable-battery
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
